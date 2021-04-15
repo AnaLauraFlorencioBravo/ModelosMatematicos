@@ -1,0 +1,35 @@
+% De secuencia de comandos de octava
+	% Título: ModelosMatematicos
+	% Descripción: Script para graficar la funcion y=-x.^2+3
+	% Autor: AnaLauraFlorencioBravo ( AnaLauraFlorencioBravo) laura6895dv@gmail.com
+	% Fecha: 20210401
+	% Versión: 1
+	% De uso: octava> / ruta / ModelosMatematicos
+	% Notas: Requiere aplicacion octava usar en consola preferiblemente
+	
+        % ( " y = - x ^ 2 + 3 " )
+        % si se graficá su comportamiento es lineal
+        % ^
+        % y |
+        % |   
+        % | ____________
+        % | 
+        % | _____________>x
+        %
+
+	
+	% limpiar variables
+	clear
+	% Ejemplo y=-x.^2+3
+	% Rango de -10..10 en i = 1
+	x = -5 : 0.2 : 100 ;
+	% Valor de la función
+	y=-x.^2+3; 
+	% Dibujar x, y
+	plot (x, y);
+	% Titulo
+	title ( "y=-x^2+3" );
+	% Etiqueta para x
+	xlabel ( " x " );
+	% Etiqueta para y
+	ylabel ( " f (x) " );
